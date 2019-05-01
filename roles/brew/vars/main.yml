@@ -1,0 +1,43 @@
+brew_taps:
+  - buo/cask-upgrade
+  - genkiroid/cert
+  - homebrew/cask
+  - homebrew/core
+
+brew_cask_apps:
+  - authy
+  - alfred
+  - boostnote
+  - firefox
+  - google-chrome
+  - hammerspoon
+  - macdown
+  - spectacle
+  - vagrant
+  - virtualbox
+  - visual-studio-code
+
+brew_packages:
+  - cert
+  - git
+  - glib
+  - go
+  - grep
+  - httpie
+  - jq
+  - nkf
+  - oniguruma
+  - openssl
+  - peco
+  - pwgen
+  - ruby
+  - source-highlight
+  - telnet
+  - terraform
+  - tig
+  - tmux
+  - tmux-xpanes
+  - tree
+  - wget
+  - zsh
+  - zsh-completions
