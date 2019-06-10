@@ -16,6 +16,7 @@ brew_cask_apps:
   - vagrant
   - virtualbox
   - visual-studio-code
+  - showyedge
 
 brew_packages:
   - cert
