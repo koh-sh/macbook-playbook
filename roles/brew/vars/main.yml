@@ -43,3 +43,4 @@ brew_packages:
   - wget
   - zsh
   - zsh-completions
+  - yamllint
