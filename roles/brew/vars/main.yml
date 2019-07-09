@@ -18,6 +18,7 @@ brew_cask_apps:
   - visual-studio-code
   - showyedge
   - grammarly
+  - docker
 
 brew_packages:
   - cert
