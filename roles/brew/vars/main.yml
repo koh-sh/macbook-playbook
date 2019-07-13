@@ -3,6 +3,7 @@ brew_taps:
   - genkiroid/cert
   - homebrew/cask
   - homebrew/core
+  - jesseduffield/lazydocker
 
 brew_cask_apps:
   - authy
@@ -45,3 +46,4 @@ brew_packages:
   - zsh
   - zsh-completions
   - yamllint
+  - lazydocker
