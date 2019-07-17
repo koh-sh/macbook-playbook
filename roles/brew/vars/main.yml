@@ -4,6 +4,7 @@ brew_taps:
   - homebrew/cask
   - homebrew/core
   - jesseduffield/lazydocker
+  - skanehira/docui
 
 brew_cask_apps:
   - authy
@@ -47,3 +48,4 @@ brew_packages:
   - zsh-completions
   - yamllint
   - lazydocker
+  - docui
