@@ -4,3 +4,4 @@
   roles:
     - brew
     - zsh-docker
+    - dotfiles

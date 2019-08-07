@@ -1,0 +1,15 @@
+- name: set dotfiles
+  get_url:
+    url: "https://raw.githubusercontent.com/koh-sh/dotfiles/master/{{ item }}"
+    dest: "~/.{{ item }}"
+  with_items:
+    - tigrc
+    - tmux.conf
+    - vimrc
+    - zshrc
+    - gitconfig
+
+- name: download init.lua for hammerspoon
+  get_url:
+    url: "https://raw.githubusercontent.com/koh-sh/dotfiles/master/hammerspoon/init.lua"
+    dest: ~/.hammerspoon/init.lua
