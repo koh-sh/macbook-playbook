@@ -1,0 +1,11 @@
+- name: check installed extensions
+  shell: code --list-extensions
+  check_mode: False
+  changed_when: False
+  ignore_errors: True
+  register: code_exts
+
+- name: install extensions
+  shell: "code --install-extension {{ item }}"
+  with_items: "{{ extensions }}"
+  when:  item not in code_exts.stdout

@@ -1,0 +1,11 @@
+extensions:
+  - CoenraadS.bracket-pair-colorizer-2
+  - ms-python.python
+  - ms-vscode.Go
+  - shardulm94.trailing-spaces
+  - vscode-icons-team.vscode-icons
+  - vscoss.vscode-ansible
+  - yzane.markdown-pdf
+  - yzhang.markdown-all-in-one
+  - oderwat.indent-rainbow
+  - ms-azuretools.vscode-docker
