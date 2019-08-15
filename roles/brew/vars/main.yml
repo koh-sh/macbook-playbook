@@ -49,3 +49,4 @@ brew_packages:
   - yamllint
   - lazydocker
   - docui
+  - shellcheck
