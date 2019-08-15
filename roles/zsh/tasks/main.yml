@@ -1,0 +1,9 @@
+- name: enable zsh as login shell
+  lineinfile:
+    path: /etc/shells
+    line: '/usr/local/bin/zsh'
+
+- name: set zsh as login shell
+  user:
+    name: koh
+    shell: /usr/local/bin/zsh   
