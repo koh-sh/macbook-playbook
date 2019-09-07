@@ -6,4 +6,4 @@
 - name: set zsh as login shell
   user:
     name: koh
-    shell: /usr/local/bin/zsh   
+    shell: /usr/local/bin/zsh
