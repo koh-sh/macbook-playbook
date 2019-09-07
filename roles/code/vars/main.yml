@@ -9,3 +9,4 @@ extensions:
   - yzhang.markdown-all-in-one
   - oderwat.indent-rainbow
   - ms-azuretools.vscode-docker
+  - vscodevim.vim
