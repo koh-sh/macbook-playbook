@@ -10,3 +10,4 @@ extensions:
   - oderwat.indent-rainbow
   - ms-azuretools.vscode-docker
   - vscodevim.vim
+  - redhat.vscode-yaml
