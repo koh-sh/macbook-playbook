@@ -14,4 +14,4 @@
   copy:
     src: keybindings.json
     dest: ~/Library/ApplicationSupport/Code/User/keybindings.json
-    
+
