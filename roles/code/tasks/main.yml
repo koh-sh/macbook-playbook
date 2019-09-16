@@ -9,3 +9,9 @@
   shell: "code --install-extension {{ item }}"
   with_items: "{{ extensions }}"
   when:  item not in code_exts.stdout
+
+- name: set key mapping
+  copy:
+    src: keybindings.json
+    dest: ~/Library/ApplicationSupport/Code/User/keybindings.json
+    
