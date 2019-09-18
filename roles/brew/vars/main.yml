@@ -50,3 +50,5 @@ brew_packages:
   - lazydocker
   - docui
   - shellcheck
+  - htop
+  - ccat
