@@ -52,3 +52,4 @@ brew_packages:
   - shellcheck
   - htop
   - ccat
+  - ffmpeg
