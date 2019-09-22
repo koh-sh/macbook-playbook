@@ -26,6 +26,3 @@ jobs:
       run: |
         ansible-playbook site.yml --syntax-check
         ansible-lint site.yml
-    - name: Run playbook
-      run: |
-        ansible-playbook site.yml
