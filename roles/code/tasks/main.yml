@@ -17,6 +17,7 @@
     - ~/Library/ApplicationSupport/
     - ~/Library/ApplicationSupport/Code/
     - ~/Library/ApplicationSupport/Code/User/
+  changed_when: False
 
 - name: set key mapping
   copy:
