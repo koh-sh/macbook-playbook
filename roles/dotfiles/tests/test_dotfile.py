@@ -1,5 +1,7 @@
+import os
+
+
 def test_dotfiles(host):
-    import os
     homedir = os.environ["HOME"] + "/"
     files = [".tigrc",
              ".tmux.conf",
