@@ -10,21 +10,8 @@
   with_items: "{{ extensions }}"
   when:  item not in code_exts.stdout
 
-- name: test
-  shell: " ls -l {{ item }}"
-  with_items:
-    - ~/Library/
-    - ~/Library/ApplicationSupport/
-    - ~/Library/ApplicationSupport/Code/
-    - ~/Library/ApplicationSupport/Code/User/
-    - ~/Library/Application\ Support/Code/User/
-    - ~/Library/Application\ Support/Code/
-    - ~/Library/Application\ Support/
-    - ~/Library/Application\ Support/Code/User/
-  changed_when: False
-
 - name: set key mapping
   copy:
     src: keybindings.json
-    dest: ~/Library/ApplicationSupport/Code/User/keybindings.json
+    dest: "~/Library/Application\ Support/Code/User/keybindings.json"
 
