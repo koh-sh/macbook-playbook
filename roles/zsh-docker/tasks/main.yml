@@ -1,13 +1,3 @@
-- name: test
-  shell: "ls -l {{ item }}"
-  with_items:
-    - /Applications/
-    - /Applications/Docker.app/
-    - /Applications/Docker.app/Contents/
-    - /Applications/Docker.app/Contents/Resources/
-    - /Applications/Docker.app/Contents/Resources/etc/
-  changed_when: False
-
 - name: enable zsh completion for docker
   file:
     src: "/Applications/Docker.app/Contents/Resources/etc/{{ item }}.zsh-completion"
