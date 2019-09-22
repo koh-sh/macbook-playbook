@@ -2,11 +2,13 @@
   lineinfile:
     path: /etc/shells
     line: '/usr/local/bin/zsh'
+  become: True
 
 - name: set zsh as login shell
   user:
     name: "{{ lookup('env', 'USER') }}"
     shell: /usr/local/bin/zsh
+  become: True
 
 - name: set completion for ccat
   get_url:

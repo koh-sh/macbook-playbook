@@ -9,6 +9,11 @@
     - zshrc
     - gitconfig
 
+- name: create directory for hammerspoon
+  file:
+    state: directory
+    path: ~/.hammerspoon/
+
 - name: download init.lua for hammerspoon
   get_url:
     url: "https://raw.githubusercontent.com/koh-sh/dotfiles/master/hammerspoon/init.lua"
