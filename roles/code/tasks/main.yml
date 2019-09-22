@@ -10,6 +10,14 @@
   with_items: "{{ extensions }}"
   when:  item not in code_exts.stdout
 
+- name: test
+  shell: " ls -l {{ item }}"
+  with_items:
+    - ~/Library/
+    - ~/Library/ApplicationSupport/
+    - ~/Library/ApplicationSupport/Code/
+    - ~/Library/ApplicationSupport/Code/User/
+
 - name: set key mapping
   copy:
     src: keybindings.json
