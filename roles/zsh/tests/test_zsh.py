@@ -6,11 +6,6 @@ def test_shells_file(host):
     assert shells.contains("/usr/local/bin/zsh")
 
 
-def test_loginshell(host):
-    loginshell = os.environ["SHELL"]
-    assert loginshell == "/usr/local/bin/zsh"
-
-
 def test_ccat_completion(host):
     compfile = "/usr/local/share/zsh/site-functions/_ccat"
     assert host.file(compfile).is_file
