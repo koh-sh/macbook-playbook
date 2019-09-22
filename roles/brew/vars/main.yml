@@ -16,7 +16,7 @@ brew_cask_apps:
   - macdown
   - spectacle
   - vagrant
-  - virtualbox
+#  - virtualbox
   - visual-studio-code
   - showyedge
   - grammarly
