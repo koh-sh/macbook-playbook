@@ -2,6 +2,7 @@
   lineinfile:
     path: /etc/shells
     line: '/usr/local/bin/zsh'
+  become: True
 
 - name: set zsh as login shell
   user:
