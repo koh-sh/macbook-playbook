@@ -3,7 +3,7 @@
   gather_facts: False
   roles:
     - brew
-    - zsh
-    - zsh-docker
-    - dotfiles
+#    - zsh
+#    - zsh-docker
+#    - dotfiles
     - code

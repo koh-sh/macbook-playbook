@@ -7,20 +7,20 @@ brew_taps:
   - skanehira/docui
 
 brew_cask_apps:
-  - authy
-  - alfred
-  - boostnote
-  - firefox
-  - google-chrome
-  - hammerspoon
-  - macdown
-  - spectacle
-  - vagrant
-#  - virtualbox
+#  - authy
+#  - alfred
+#  - boostnote
+#  - firefox
+#  - google-chrome
+#  - hammerspoon
+#  - macdown
+#  - spectacle
+#  - vagrant
+##  - virtualbox
   - visual-studio-code
-  - showyedge
-  - grammarly
-  - docker
+#  - showyedge
+#  - grammarly
+#  - docker
 
 brew_packages:
   - cert
