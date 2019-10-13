@@ -1,0 +1,8 @@
+- name: enable sudo without password
+  copy:
+    dest: "/etc/sudoers.d/{{ lookup('env', 'USER') }}"
+    content: "{{ lookup('env', 'USER') }} ALL=(ALL) NOPASSWD: ALL"
+    owner: root
+    mode: 0440
+    validate: 'visudo -cf %s'
+  become: True

@@ -2,6 +2,7 @@
 - hosts: localhost
   gather_facts: False
   roles:
+    - sudoers
     - brew
     - zsh
     - zsh-docker
