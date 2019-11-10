@@ -14,6 +14,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    - name: spctl
+      run: |
+        sudo /usr/sbin/spctl --master-disable
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
       with:
