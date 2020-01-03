@@ -53,3 +53,4 @@ brew_packages:
   - htop
   - ccat
   - ffmpeg
+  - hugo
