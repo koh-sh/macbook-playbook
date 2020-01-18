@@ -11,3 +11,4 @@ extensions:
   - ms-azuretools.vscode-docker
   - vscodevim.vim
   - redhat.vscode-yaml
+  - ms-vscode-remote.remote-ssh
