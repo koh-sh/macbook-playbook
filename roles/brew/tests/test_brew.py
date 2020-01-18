@@ -60,7 +60,8 @@ def test_packs(host):
              "shellcheck",
              "htop",
              "ccat",
-             "ffmpeg"]
+             "ffmpeg",
+             "hugo"]
     cmd = host.run("brew list")
     for pack in packs:
         assert pack in cmd.stdout

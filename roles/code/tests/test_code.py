@@ -10,7 +10,8 @@ def test_extensions(host):
                   "oderwat.indent-rainbow",
                   "ms-azuretools.vscode-docker",
                   "vscodevim.vim",
-                  "redhat.vscode-yaml"]
+                  "redhat.vscode-yaml",
+                  "ms-vscode-remote.remote-ssh"]
     cmd = host.run("code --list-extensions")
     for extension in extensions:
         assert extension in cmd.stdout
