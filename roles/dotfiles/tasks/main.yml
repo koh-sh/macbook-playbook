@@ -7,7 +7,6 @@
     - tmux.conf
     - vimrc
     - zshrc
-    - gitconfig
 
 - name: create directory for hammerspoon
   file:

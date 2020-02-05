@@ -7,7 +7,6 @@ def test_dotfiles(host):
              ".tmux.conf",
              ".vimrc",
              ".zshrc",
-             ".gitconfig",
              ".hammerspoon/init.lua"]
     for file in files:
         dotfile = host.file(homedir + file)

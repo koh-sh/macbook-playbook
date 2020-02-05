@@ -6,4 +6,3 @@
   with_items:
     - docker
     - docker-compose
-    - docker-machine

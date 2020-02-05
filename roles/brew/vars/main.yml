@@ -54,3 +54,4 @@ brew_packages:
   - ccat
   - ffmpeg
   - hugo
+  - git-secrets

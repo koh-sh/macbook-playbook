@@ -1,5 +1,5 @@
 def test_docker_completion(host):
-    commands = ["docker", "docker-compose", "docker-machine"]
+    commands = ["docker", "docker-compose"]
     srcpath = "/Applications/Docker.app/Contents/Resources/etc/"
     dstpath = "/usr/local/share/zsh/site-functions/"
     for cmd in commands:
