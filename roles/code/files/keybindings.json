@@ -7,5 +7,9 @@
     {
         "key": "ctrl+;",            "command": "workbench.action.focusFirstEditorGroup",
                                     "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+t",            "command": "workbench.action.tasks.runTask",
+                                    "args": "test"
     }
 ]
