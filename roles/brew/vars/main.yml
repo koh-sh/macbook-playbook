@@ -10,6 +10,8 @@ brew_cask_apps:
   - authy
   - alfred
   - boostnote
+  - slack
+  - iterm2
   - firefox
   - google-chrome
   - hammerspoon

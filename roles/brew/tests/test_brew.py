@@ -24,6 +24,8 @@ def test_cask(host):
              "visual-studio-code",
              "showyedge",
              "grammarly",
+             "slack",
+             "iterm2",
              "docker"]
     cmd = host.run("brew cask list")
     for cask in casks:
