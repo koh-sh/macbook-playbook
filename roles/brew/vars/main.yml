@@ -23,6 +23,7 @@ brew_cask_apps:
   - showyedge
   - grammarly
   - docker
+  - clipy
 
 brew_packages:
   - cert
