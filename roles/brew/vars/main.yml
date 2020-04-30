@@ -58,3 +58,4 @@ brew_packages:
   - ffmpeg
   - hugo
   - git-secrets
+  - nodenv

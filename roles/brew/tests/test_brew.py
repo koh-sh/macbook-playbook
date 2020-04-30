@@ -64,7 +64,8 @@ def test_packs(host):
              "htop",
              "ccat",
              "ffmpeg",
-             "hugo"]
+             "hugo",
+             "nodenv"]
     cmd = host.run("brew list")
     for pack in packs:
         assert pack in cmd.stdout
