@@ -12,3 +12,4 @@ extensions:
   - vscodevim.vim
   - redhat.vscode-yaml
   - ms-vscode-remote.remote-ssh
+  - ms-python.vscode-pylance
