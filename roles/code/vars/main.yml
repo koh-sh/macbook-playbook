@@ -1,7 +1,7 @@
 extensions:
   - CoenraadS.bracket-pair-colorizer-2
   - ms-python.python
-  - ms-vscode.Go
+  - golang.go
   - shardulm94.trailing-spaces
   - vscode-icons-team.vscode-icons
   - vscoss.vscode-ansible
