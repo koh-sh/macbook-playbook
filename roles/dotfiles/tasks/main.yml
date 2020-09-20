@@ -12,6 +12,9 @@
   file:
     state: directory
     path: ~/.hammerspoon/
+    owner: "{{ lookup('env', 'USER') }}"
+    group: staff
+    mode: 0755
 
 - name: download init.lua for hammerspoon
   get_url:

@@ -14,4 +14,6 @@
   copy:
     src: keybindings.json
     dest: "~/Library/Application\ Support/Code/User/keybindings.json"
-
+    owner: "{{ lookup('env', 'USER') }}"
+    group: staff
+    mode: 0644

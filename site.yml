@@ -5,6 +5,6 @@
     - sudoers
     - brew
     - zsh
-    - zsh-docker
+    - zsh_docker
     - dotfiles
     - code
