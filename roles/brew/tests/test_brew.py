@@ -13,7 +13,6 @@ def test_taps(host):
 def test_cask(host):
     casks = ["authy",
              "alfred",
-             "boostnote",
              "firefox",
              "google-chrome",
              "hammerspoon",
@@ -23,7 +22,6 @@ def test_cask(host):
              # "virtualbox",
              "visual-studio-code",
              "showyedge",
-             "grammarly",
              "slack",
              "iterm2",
              "clipy",

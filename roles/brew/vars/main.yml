@@ -9,7 +9,6 @@ brew_taps:
 brew_cask_apps:
   - authy
   - alfred
-  - boostnote
   - slack
   - iterm2
   - firefox
@@ -21,7 +20,6 @@ brew_cask_apps:
 #  - virtualbox
   - visual-studio-code
   - showyedge
-  - grammarly
   - docker
   - clipy
 
