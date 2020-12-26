@@ -4,7 +4,6 @@
     dest: "~/.{{ item }}"
   with_items:
     - tigrc
-    - tmux.conf
     - vimrc
     - zshrc
 

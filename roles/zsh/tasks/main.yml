@@ -1,16 +1,11 @@
 - name: enable zsh as login shell
   lineinfile:
     path: /etc/shells
-    line: '/usr/local/bin/zsh'
+    line: '/opt/homebrew/bin/zsh'
   become: True
 
 - name: set zsh as login shell
   user:
     name: "{{ lookup('env', 'USER') }}"
-    shell: /usr/local/bin/zsh
+    shell: /opt/homebrew/bin/zsh
   become: True
-
-- name: set completion for ccat
-  get_url:
-    url: https://raw.githubusercontent.com/jingweno/ccat/master/completion/zsh/_ccat
-    dest: /usr/local/share/zsh/site-functions/_ccat

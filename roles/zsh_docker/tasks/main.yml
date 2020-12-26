@@ -1,7 +1,7 @@
 - name: enable zsh completion for docker
   file:
     src: "/Applications/Docker.app/Contents/Resources/etc/{{ item }}.zsh-completion"
-    dest: "/usr/local/share/zsh/site-functions/_{{ item }}"
+    dest: "/opt/homebrew/share/zsh/site-functions/_{{ item }}"
     state: link
   with_items:
     - docker
