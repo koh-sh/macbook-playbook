@@ -38,3 +38,4 @@ brew_packages:
   - lazydocker
   - htop
   - nodenv
+  - hugo
