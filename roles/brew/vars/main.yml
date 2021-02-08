@@ -39,3 +39,4 @@ brew_packages:
   - htop
   - nodenv
   - hugo
+  - ffmpeg
