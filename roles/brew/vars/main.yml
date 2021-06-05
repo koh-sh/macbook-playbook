@@ -5,6 +5,7 @@ brew_taps:
   - homebrew/core
   - jesseduffield/lazydocker
   - skanehira/docui
+  - heroku/brew
 
 brew_cask_apps:
   - authy
@@ -41,3 +42,4 @@ brew_packages:
   - nodenv
   - hugo
   - ffmpeg
+  - heroku
