@@ -43,3 +43,4 @@ brew_packages:
   - hugo
   - ffmpeg
   - heroku
+  - imagemagick
