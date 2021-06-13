@@ -21,7 +21,7 @@ brew_cask_apps:
   - showyedge
   - docker
   - clipy
-  - rbenv
+  - steam
 
 brew_packages:
   - cert
@@ -44,3 +44,4 @@ brew_packages:
   - ffmpeg
   - heroku
   - imagemagick
+  - rbenv
