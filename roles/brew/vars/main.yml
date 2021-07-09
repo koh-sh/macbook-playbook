@@ -45,3 +45,4 @@ brew_packages:
   - heroku
   - imagemagick
   - rbenv
+  - shellcheck
