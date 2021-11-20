@@ -22,6 +22,7 @@ brew_cask_apps:
   - docker
   - clipy
   - steam
+  - multipass
 
 brew_packages:
   - cert
