@@ -21,8 +21,8 @@ brew_cask_apps:
   - showyedge
   - docker
   - clipy
-  - steam
   - multipass
+  - raycast
 
 brew_packages:
   - cert
