@@ -47,3 +47,4 @@ brew_packages:
   - imagemagick
   - rbenv
   - shellcheck
+  - nkf
